@@ -1,16 +1,16 @@
-import { MyPlugin as MyPluginDll, icons } from '../src';
-import MyPlugin from '../src/myplugin';
+import { CustomColorPlugin as MyPluginDll, icons } from '../src';
+import CustomColorPlugin from '../src/customcolorplugin';
 
 import ckeditor from './../theme/icons/ckeditor.svg';
 
-describe( 'CKEditor5 MyPlugin DLL', () => {
-	it( 'exports MyPlugin', () => {
-		expect( MyPluginDll ).to.equal( MyPlugin );
-	} );
+describe('CKEditor5 CustomColorPlugin DLL', () => {
+	it('exports CustomColorPlugin', () => {
+		expect(MyPluginDll).to.equal(CustomColorPlugin);
+	});
 
-	describe( 'icons', () => {
-		it( 'exports the "ckeditor" icon', () => {
-			expect( icons.ckeditor ).to.equal( ckeditor );
-		} );
-	} );
-} );
+	describe('icons', () => {
+		it('exports the "ckeditor" icon', () => {
+			expect(icons.ckeditor).to.equal(ckeditor);
+		});
+	});
+});

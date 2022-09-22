@@ -1,7 +1,7 @@
 import ckeditor from './../theme/icons/ckeditor.svg';
 
-export { default as MyPlugin } from './myplugin';
+export { default as CustomColorPlugin } from './customcolorplugin';
 
 export const icons = {
-	ckeditor
+	ckeditor,
 };

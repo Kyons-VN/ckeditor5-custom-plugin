@@ -2,7 +2,7 @@
 	"plugins": [
 		{
 			"name": "My plugin",
-			"className": "MyPlugin",
+			"className": "CustomColorPlugin",
 			"description": "Adds text to the editor.",
 			"path": "src/myplugin.js",
 			"uiComponents": [

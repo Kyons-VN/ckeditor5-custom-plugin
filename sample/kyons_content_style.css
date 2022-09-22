@@ -1,0 +1,42 @@
+h6,
+h7,
+h8 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	overflow-wrap: break-word;
+	display: block;
+}
+h6,
+.ck.ck-button.ck-heading_heading6 {
+	font-size: 18px;
+}
+h7,
+.ck.ck-button.ck-heading_heading7 {
+	font-size: 16px;
+	font-weight: bold;
+}
+h8,
+.ck.ck-button.ck-heading_heading8 {
+	font-size: 14px;
+	font-weight: bold;
+}
+a {
+	color: #fb7200;
+}
+a:hover,
+a:visited:hover {
+	color: #315d93;
+}
+a:visited {
+	color: #de6501;
+}
+note,
+.ck.ck-button.ck-heading_note,
+customcaption,
+.ck.ck-button.ck-heading_caption {
+	font-size: 12px;
+}
+customcaption,
+.ck.ck-button.ck-heading_customcaption {
+	text-transform: uppercase;
+}
