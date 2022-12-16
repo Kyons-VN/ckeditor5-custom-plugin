@@ -24,7 +24,8 @@ module.exports = {
 				'comma-dangle': 'off',
 				'array-bracket-spacing': 'off',
 				'template-curly-spacing': 'off',
-				'computed-property-spacing': 'off'
+				'computed-property-spacing': 'off',
+				'operator-linebreak': 'off'
 			}
 		}
 	]
